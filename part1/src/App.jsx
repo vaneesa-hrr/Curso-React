@@ -6,8 +6,8 @@ const App = () => {
 
   return (
     <div>
-      <p>{friends[0]}</p>
-      <p>{friends[1]}</p>
+      <p>{friends[0].name} {friends[0].age} {friends[0].city}</p>
+      <p>{friends[1].name} {friends[1].age}</p>
     </div>
   )
 }
